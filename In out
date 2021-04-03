@@ -1,0 +1,32 @@
+int leds[] ={6,7,8};
+int ledss[] ={10,9,8};
+int suf1[] ={7,6};
+int suf2[] ={9,10};
+
+
+void setup() {
+for(int i=0;i<5;i++){
+  pinMode(leds[i],OUTPUT);
+  }
+
+}
+
+void loop() {
+for(int i=0;i<0;i++){
+digitalWrite(leds[i],HIGH);
+digitalWrite(ledss[i],HIGH);
+delay(100);
+digitalWrite(leds[i],LOW);
+digitalWrite(ledss[i],LOW);
+delay(100);
+  }
+for(int i=0;i<0;i++){
+digitalWrite(suf1[i],HIGH);
+digitalWrite(suf2[i],HIGH);
+
+delay(100);
+digitalWrite(suf1[i],LOW);
+digitalWrite(suf2[i],LOW);
+delay(100);
+  }
+}
